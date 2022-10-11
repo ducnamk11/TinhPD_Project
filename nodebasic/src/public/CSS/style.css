@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .topnav {
@@ -63,3 +63,22 @@ body {
 .upload-file-container label {
     display: block;
 }
+
+hr {
+    border-top: 3px solid #eee !important;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+  
