@@ -67,8 +67,8 @@ let handleUploadMultipleFiles = async (req, res) => {
 	if (req.fileValidationError) {
 		return res.send(req.fileValidationError);
 	} else if (!req.files) {
-		return res.send("Please select an image to upload");
-	}
+        return res.send("Please select an image to upload");
+    }
 
 	let result = "You have uploaded these images: <hr />";
 	const files = req.files;

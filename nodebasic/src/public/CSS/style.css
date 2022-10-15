@@ -124,11 +124,7 @@ body {
 	font-size: 186px;
 	font-weight: 900;
 	margin: 0px;
-	text-transform: uppercase;
-	background: url("../image/text.png");
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: cover;
+    color: #636e72;
 	background-position: center;
 }
 
@@ -158,7 +154,7 @@ body {
 	padding: 10px 40px;
 	font-size: 14px;
 	font-weight: 700;
-	border-radius: 1px;
+	border-radius: 5px;
 	margin-top: 15px;
 	-webkit-transition: 0.2s all;
 	transition: 0.2s all;
